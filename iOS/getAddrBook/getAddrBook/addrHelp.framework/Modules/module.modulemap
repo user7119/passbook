@@ -1,0 +1,11 @@
+framework module addrHelp {
+  umbrella header "addrHelp.h"
+
+  export *
+  module * { export * }
+}
+
+module addrHelp.Swift {
+    header "addrHelp-Swift.h"
+    requires objc
+}
